@@ -6,10 +6,11 @@
     .header
       .left-header
         .left-header__title
-          グループ名
+          = @group.name
         %ul.left-header__members
           Member：
           %li.member
+            = render 'messages/user'
             メンバー名
           %li.member
             メンバー名
