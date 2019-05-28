@@ -22,7 +22,7 @@
     .chat-group-form__field--left
       %label.chat-group-form__label{for: "chat_group_チャットメンバー"} チャットメンバー
     .chat-group-form__field--right
-      #chat_group_user_8.chat-group-user.clearfix.js-chat-member>
+      #chat_group_user_8.chat-group-user.clearfix.js-chat-member
         %p.chat-group-user__name
           - @group.users.each do |user|
             = user.name
